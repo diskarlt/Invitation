@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic|Nanum+Myeongjo');
+
+.WhereWraper {
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+.WhereHeaderTitle {
+	font-family: 'Nanum Myeongjo', serif;
+	font-size: 20px;
+	font-style: italic;
+	padding: 16px;
+}
+
+.WhereHeaderContent {
+	color: #bbbbbb;
+	font-family: 'Nanum Gothic', sans-serif;
+	font-size: 15px;
+	font-style: italic;
+	letter-spacing: 0.45px;
+	line-height: 30px;
+	padding: 16px;
+}
+
+.WhereMapWrapper {
+	padding: 16px;
+}
+
+.WhereMap {
+	width: 100%;
+}
+
+.WhereDetail {
+	color: #666666;
+	font-family: 'Nanum Gothic', sans-serif;
+	font-size: 15px;
+	letter-spacing: 0.45px;
+	line-height: 30px;
+	padding: 16px;
+}
+
+.WhereTitle {
+	font-weight: bold;
+	text-align: left;
+}
+
+.WhereContent {
+	text-align: left;
+}

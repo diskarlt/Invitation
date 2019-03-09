@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic|Nanum+Myeongjo');
+
+.WhenWrapper {
+	padding-top: 100px;
+	padding-bottom: 30px;
+}
+
+.WhenTime {
+	font-family: 'Nanum Myeongjo', serif;
+	font-size: 20px;
+	font-style: italic;
+	padding: 16px;
+}
+
+.WhenName {
+	font-family: 'Nanum Myeongjo', serif;
+	font-size: 20px;
+	padding: 16px;
+}
+
+.WhenText {
+	font-family: 'Nanum Gothic', sans-serif;
+	font-size: 15px;
+	color: #666666;
+	letter-spacing: 0.45px;
+	line-height: 30px;
+	padding: 16px;
+}
+
+.WhenImageWrapper {
+	padding: 100px 16px 30px;
+}
+
+.WhenImage {
+	width: 100%;
+}
