@@ -2,14 +2,20 @@
 
 .HeaderWrapper {
 	height: 400px;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Header {
+	height: 100%;
+	width: 100%;
+	max-width: 800px;
 	background-image: url("../../assets/img/KakaoTalk_20190309_140045131.png");
 	background-attachment: scroll;
 	background-position-x: 50%;
 	background-position-y: 50%;
 	background-size: cover;
-	display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .HeaderBackground {
@@ -23,7 +29,7 @@
 	opacity: 0.4;
 }
 
-.Header {
+.HeaderTitle {
 	position: relative;
 	vertical-align: middle;
 	font-family: EB Garamond, serif !important;

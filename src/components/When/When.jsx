@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 import './When.css';
 
-import image from '../../assets/img/image_1515745345693_750.png';
-
 class When extends Component {
 	render() {
 		return (
@@ -16,9 +14,6 @@ class When extends Component {
 					<div>우리의 작은 결혼식에 초대합니다.</div>
 					<div>저희의 소중한 날에 참석하셔서</div>
 					<div>설레는 시작의 순간을 함께 해 주세요.</div>
-				</div>
-				<div className="WhenImageWrapper">
-					<img className="WhenImage" src={image} alt=""/>
 				</div>
 			</div>
 		);

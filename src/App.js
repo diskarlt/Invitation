@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Header, Footer, When, Where, Information } from './components';
+import { Header, Footer, When, Gallery, Where, Information } from './components';
 import './App.css';
 
 class App extends Component {
@@ -8,6 +8,7 @@ class App extends Component {
       <div className="App">
         <Header/>
         <When/>
+        <Gallery/>
         <Information/>
         <Where/>
         <Footer/>

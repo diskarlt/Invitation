@@ -2,7 +2,7 @@
 
 .WhenWrapper {
 	padding-top: 100px;
-	padding-bottom: 30px;
+	padding-bottom: 100px;
 }
 
 .WhenTime {
@@ -25,12 +25,4 @@
 	letter-spacing: 0.45px;
 	line-height: 30px;
 	padding: 16px;
-}
-
-.WhenImageWrapper {
-	padding: 100px 16px 30px;
-}
-
-.WhenImage {
-	width: 100%;
 }

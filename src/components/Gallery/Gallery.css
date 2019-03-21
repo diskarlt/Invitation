@@ -1,0 +1,9 @@
+.GalleryWrapper {
+	display: flex;
+    align-items: center;
+	justify-content: center;
+}
+
+.GalleryImageWrapper {
+	max-width: 500px;
+}

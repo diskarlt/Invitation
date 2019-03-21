@@ -11,49 +11,51 @@ class Where extends Component {
 	render() {
 		return (
 			<div className="WhereWraper">
-				<div className="WhereHeaderTitle">오시는 길</div>
-				<div className="WhereHeaderContent">
-					<div>주택가에 위치해 다소 찾기 어려우니,</div>
-					<div>오시는 길을 꼭 참고하여 참석해주세요.</div>
-				</div>
-				<div className="WhereMapWrapper">
-					<img className="WhereMap" src={map} alt="map"/>
-				</div>
-				<div className="WhereDetail">
-					<div className="WhereTitle">아파트먼트99</div>
-				</div>
-				<div className="WhereDetail">
-					<div className="WhereTitle">전화</div>
-					<div className="WhereContent">02-557-5456</div>
-				</div>
-				<div className="WhereDetail">
-					<div className="WhereTitle">주소</div>
-					<div className="WhereContent">서울시 강남구 봉은사로 68길 35-3 (삼성동 123-22)</div>
-				</div>
-				<div className="WhereDetail">
-					<div className="WhereTitle">내비게이션, 스마트폰</div>
-					<div className="WhereContent">강남구 삼성동 123-21(포엠빌딩)로 찾으시면 편리합니다.</div>
-				</div>
-				<div className="WhereDetail">
-					<div className="WhereTitle">주차</div>
-					<div className="WhereContent">발렛 서비스 (무료)</div>
-				</div>
-				<div className="WhereDetail">
-					<div className="WhereTitle">지하철</div>
-					<div className="WhereContent">9호선 삼성중앙역 7번 출구</div>
-				</div>
-				<div className="WhereDetail">
-					<div className="WhereTitle">걸어오시는 방법</div>
-					<div className="WhereContent">
-						<div>7번 출구에서 280M(도보5분) 직진</div>
-						<div>소람한방병원을 끼고 좌회전</div>
-						<div>공원둘레길을 따라 270M(도보5분) 직진</div>
-						<div>붉은벽돌건물과 우유랑카페건물 사이 골목으로 들어오세요.</div>
-						<div>아파트먼트99 도착</div>
-						<div>(은혜교회를 지나면 안돼요.)</div>
+				<div className="Where">
+					<div className="WhereHeaderTitle">오시는 길</div>
+					<div className="WhereHeaderContent">
+						<div>주택가에 위치해 다소 찾기 어려우니,</div>
+						<div>오시는 길을 꼭 참고하여 참석해주세요.</div>
 					</div>
+					<div className="WhereMapWrapper">
+						<img className="WhereMap" src={map} alt="map"/>
+					</div>
+					<div className="WhereDetail">
+						<div className="WhereTitle">아파트먼트99</div>
+					</div>
+					<div className="WhereDetail">
+						<div className="WhereTitle">전화</div>
+						<div className="WhereContent">02-557-5456</div>
+					</div>
+					<div className="WhereDetail">
+						<div className="WhereTitle">주소</div>
+						<div className="WhereContent">서울시 강남구 봉은사로 68길 35-3 (삼성동 123-22)</div>
+					</div>
+					<div className="WhereDetail">
+						<div className="WhereTitle">내비게이션, 스마트폰</div>
+						<div className="WhereContent">강남구 삼성동 123-21(포엠빌딩)로 찾으시면 편리합니다.</div>
+					</div>
+					<div className="WhereDetail">
+						<div className="WhereTitle">주차</div>
+						<div className="WhereContent">발렛 서비스 (무료)</div>
+					</div>
+					<div className="WhereDetail">
+						<div className="WhereTitle">지하철</div>
+						<div className="WhereContent">9호선 삼성중앙역 7번 출구</div>
+					</div>
+					<div className="WhereDetail">
+						<div className="WhereTitle">걸어오시는 방법</div>
+						<div className="WhereContent">
+							<div>7번 출구에서 280M(도보5분) 직진</div>
+							<div>소람한방병원을 끼고 좌회전</div>
+							<div>공원둘레길을 따라 270M(도보5분) 직진</div>
+							<div>붉은벽돌건물과 우유랑카페건물 사이 골목으로 들어오세요.</div>
+							<div>아파트먼트99 도착</div>
+							<div>(은혜교회를 지나면 안돼요.)</div>
+						</div>
+					</div>
+					<div className="WhereMapWrapper" dangerouslySetInnerHTML={createMap()}/>
 				</div>
-				<div className="WhereMapWrapper" dangerouslySetInnerHTML={createMap()}/>
 			</div>
 		);
 	}
